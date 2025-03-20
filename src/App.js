@@ -21,15 +21,16 @@ import PrivacyPage from './pages/PrivacyPage';
 
 
 // Protected route component
-const ProtectedRoute = ({ children }) => {
-  const { currentUser } = useAuth();
-  
-  if (!currentUser) {
-    return <Navigate to="/login" />;
-  }
-  
-  return children;
-};
+// Remove or comment out the unused ProtectedRoute component
+// const ProtectedRoute = ({ children }) => {
+//   const { currentUser } = useAuth();
+//   
+//   if (!currentUser) {
+//     return <Navigate to="/login" />;
+//   }
+//   
+//   return children;
+// };
 
 // Admin route component
 const AdminRoute = ({ children }) => {
