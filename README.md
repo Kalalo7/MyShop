@@ -64,18 +64,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Firebase Documentation
 - Styled Components
 ```plaintext
-
-This README includes:
-- Project overview
-- Features list
-- Technology stack
-- Installation instructions
-- Environment setup
-- Usage guidelines
-- Contributing guidelines
-- License information
-- Author details
-- Acknowledgments
-
-Would you like me to add or modify any section?
-```
